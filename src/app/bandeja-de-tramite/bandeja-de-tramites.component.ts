@@ -7,4 +7,5 @@ import { DateRange } from '@angular/material/datepicker';
   styleUrl: './bandeja-de-tramites.component.css'
 })
 export class BandejaDeTramitesComponent {
+
 }

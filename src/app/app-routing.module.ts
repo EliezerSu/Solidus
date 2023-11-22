@@ -4,7 +4,9 @@ import { BandejaDeTramitesComponent } from './bandeja-de-tramite/bandeja-de-tram
 
 
 const routes: Routes = [
-{ path:'bandeja-de-entrada', component: BandejaDeTramitesComponent},
+{ path:'bandeja-de-tramite', component: BandejaDeTramitesComponent},
+{path: '**', redirectTo:'', pathMatch:'prefix'},
+
 
 
 ];
