@@ -47,17 +47,56 @@
         <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
     </div>
-  
   </mat-card-actions>
+
+
+  <mat-card-actions class="Tittle_secondlevel">
+    <mat-card-title id="Date">
+      <span>Fecha:</span>
+    </mat-card-title>
+
+    <mat-card-title id="Range">
+      <span>Rango de Valores:</span>
+    </mat-card-title>
+
+  </mat-card-actions>
+
   <mat-card-actions>
     <mat-card-actions>
-      <div class="Input-select">
-        <label>Inicio:
-          <input class="Calendar" type="date" id="endDate">
-        </label>
+      <div class="date-range-picker">
+        <mat-label for="startDate">
+          Desde:
+        </mat-label>
+        <input class="Calendar" type="date" id="startDate">
       </div>
     </mat-card-actions>
-  </mat-card-actions>
+
+    <mat-card-actions>
+      <div class="date-range-picker">
+        <mat-label for="endDate">Hasta:</mat-label>
+        <input class="Calendar" type="date" id="endDate">
+      </div>
+    </mat-card-actions>
+
+  
+
+
+  <div class="Input-select">
+    <mat-label>Correción y contrapartida</mat-label>
+    <mat-select>
+      <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
+    </mat-select>
+  </div>
+
+  <div class="Input-select">
+    <mat-label>Correción y contrapartida</mat-label>
+    <mat-select>
+      <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
+    </mat-select>
+  </div>
+</mat-card-actions>
+<br>
+<br>
 
 
   <mat-card-content class="text1">
@@ -88,55 +127,55 @@
 
   <mat-card-actions>
     <mat-card-content class="RadioButton-Text-One">
-      <label class="container" >
-        <input type="radio"  name="Todos">Todos
+      <label class="container">
+        <input type="radio" name="Todos">Todos
         <span class="checkmark"></span>
       </label>
 
       <label class="container">
-        <input type="radio"  name="Evento">Ing. Evento
+        <input type="radio" name="Evento">Ing. Evento
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Ing. Gravado
+        <input type="radio"  name="Gravado">Ing. Gravado
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Gto. Deducible
+        <input type="radio"  name="Deducible">Gto. Deducible
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Gto. No deducible
+        <input type="radio"  name="No_deducible">Gto. No deducible
         <span class="checkmark"></span>
       </label>
     </mat-card-content>
 
     <mat-card-content class="RadioButton-Text-Second">
       <label class="container">
-        <input type="radio"  name="radio">Todos
+        <input type="radio" name="Todos1">Todos
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">No definitivo
+        <input type="radio"  name="No_definitivo">No definitivo
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Definitivo
+        <input type="radio"  name="Definitivo">Definitivo
         <span class="checkmark"></span>
       </label>
     </mat-card-content>
 
     <mat-card-content class="RadioButton-Text-Three">
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Todos
+        <input type="radio" name="Todos2">Todos
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Cero
+        <input type="radio"  name="Cero">Cero
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Grabado
+        <input type="radio" name="Grabado">Grabado
         <span class="checkmark"></span>
       </label>
 
@@ -144,15 +183,15 @@
 
     <mat-card-content class="RadioButton-Text-Four">
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Todos
+        <input type="radio" name="Todos3">Todos
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Ordinario
+        <input type="radio"  name="Ordinario">Ordinario
         <span class="checkmark"></span>
       </label>
       <label class="container">
-        <input type="radio" checked="checked" name="radio">Extraordinario
+        <input type="radio"  name="Extraordinario">Extraordinario
         <span class="checkmark"></span>
       </label>
 
