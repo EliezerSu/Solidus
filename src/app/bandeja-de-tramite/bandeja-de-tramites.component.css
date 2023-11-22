@@ -19,7 +19,19 @@ label {
 }
 
 
+.divide{
 
+  width: 10%;
+  transform: rotate(90deg);
+  background-color: #000;
+  margin-right: 100px;
+  border-style: dotted;
+  border: 0.1px solid #000;
+ align-items:  center;
+
+
+
+}
 
 
 .date-range-picker {
