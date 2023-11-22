@@ -51,12 +51,17 @@
         </mat-nav-list>
 
       </div>
-      <div class="sidebar-section-2">
+      <div class="sidebar-section-2" >
 
 
 
-        <button class="config-btn">
-          <mat-icon>add</mat-icon> Mas
+        <button class="config-btn" >
+          <mat-icon >add</mat-icon>
+          <span *ngIf="isExpanded">Más</span>
+        </button>
+        <button class="config-btn" >
+          <mat-icon >settings</mat-icon>
+          <span *ngIf="isExpanded">Configuración</span>
         </button>
 
 
