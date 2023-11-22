@@ -1,57 +1,59 @@
 <mat-card>
   <br>
-  <mat-card-title class="titulo">
+  <mat-card-title class="main-title">
     Consulta y Corrección de Transacciones
   </mat-card-title>
   <mat-card-actions>
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">EMPRESA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion1" value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
+    <div class="Input-select">
+      <mat-label>Empresa</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
-    </mat-form-field>
+    </div>
 
 
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">OFICINA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion" value="CONTILEG S.A.">CYL GYE</mat-option>
+    <div class="Input-select">
+      <mat-label>Oficina</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">OFICINA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion" value="CONTILEG S.A.">CYL GYE</mat-option>
+    <div class="Input-select">
+      <mat-label>Región según oficina</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
-    </mat-form-field>
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">OFICINA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion" value="CONTILEG S.A.">CYL GYE</mat-option>
-      </mat-select>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">OFICINA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion" value="CONTILEG S.A.">CYL GYE</mat-option>
+    <div class="Input-select">
+      <mat-label>Monedas transacciones</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field class="combobox">
-      <mat-label class="combo_titulo">OFICINA</mat-label>
-      <mat-select class="combo_opcion">
-        <mat-option class="combo_opcion" value="CONTILEG S.A.">CYL GYE</mat-option>
+    <div class="Input-select">
+
+      <mat-label>Tipos de operaciones</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
       </mat-select>
+    </div>
 
-    </mat-form-field>
+    <div class="Input-select">
+      <mat-label>Correción y contrapartida</mat-label>
+      <mat-select>
+        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
+      </mat-select>
+    </div>
+  
   </mat-card-actions>
   <mat-card-actions>
     <mat-card-actions>
-      <div class="combobox">
+      <div class="Input-select">
         <label>Inicio:
-          <input class="calen_" type="date" id="endDate">
+          <input class="Calendar" type="date" id="endDate">
         </label>
       </div>
     </mat-card-actions>
@@ -85,10 +87,10 @@
   <mat-divider></mat-divider>
 
   <mat-card-actions>
-    <mat-card-content class="text2">
+    <mat-card-content class="RadioButton-Text-One">
       <label class="container" >
         <input type="radio"  name="Todos">Todos
-
+        <span class="checkmark"></span>
       </label>
 
       <label class="container">
@@ -109,7 +111,7 @@
       </label>
     </mat-card-content>
 
-    <mat-card-content class="text3">
+    <mat-card-content class="RadioButton-Text-Second">
       <label class="container">
         <input type="radio"  name="radio">Todos
         <span class="checkmark"></span>
@@ -124,7 +126,7 @@
       </label>
     </mat-card-content>
 
-    <mat-card-content class="text4">
+    <mat-card-content class="RadioButton-Text-Three">
       <label class="container">
         <input type="radio" checked="checked" name="radio">Todos
         <span class="checkmark"></span>
@@ -140,7 +142,7 @@
 
     </mat-card-content>
 
-    <mat-card-content class="text5">
+    <mat-card-content class="RadioButton-Text-Four">
       <label class="container">
         <input type="radio" checked="checked" name="radio">Todos
         <span class="checkmark"></span>
@@ -160,21 +162,97 @@
 
 </mat-card>
 <br>
+
+<br>
 <br>
 <mat-card>
-  <mat-card-actions>
-    <div class="contenedor">
-      <div class="contenedor2">
-        <div class="input_2">
-          <input type="text" id="busqueda">
-          <button type="button">
+  <mat-card-content class="Title-Level-Three">
+    <mat-card-actions>
+      <mat-card-title id="MainName">
+        Combinacion
+      </mat-card-title>
+      <mat-card-title id="SecondName">
+        Limpiar combinaciones
+      </mat-card-title>
+    </mat-card-actions>
+  </mat-card-content>
+
+  <mat-card-content>
+    <mat-card-actions>
+      <span class="TextName--">Mayor</span>
+      <mat-card-actions>
+        <div class="Input-Search-Container">
+          <input type="text" id="Input-Search">
+          <button type="button" id="Search-Button">
             <mat-icon>search</mat-icon>
           </button>
         </div>
-      </div>
-    </div>
+
+        <label>
+          <input class="Input-Text">
+        </label>
 
 
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
 
-  </mat-card-actions>
+      </mat-card-actions>
+    </mat-card-actions>
+  </mat-card-content>
+
+  <mat-card-content>
+    <mat-card-actions>
+      <p> Detalle <br> Auxiliar </p>
+      <mat-card-actions>
+        <div class="Input-Search-Container">
+          <input type="text" id="Input-Search">
+          <button type="button" id="Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+
+        <label>
+          <input class="Input-Text">
+        </label>
+
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button2" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+
+        <div class="input-right">
+          <input type="text" id="Input-Search-Right">
+          <button type="button" id="Right-Search-Button">
+            <mat-icon>search</mat-icon>
+          </button>
+        </div>
+
+      </mat-card-actions>
+    </mat-card-actions>
+  </mat-card-content>
 </mat-card>
