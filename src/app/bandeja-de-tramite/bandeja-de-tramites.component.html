@@ -51,11 +51,11 @@
 
 
   <mat-card-actions class="Tittle_secondlevel">
-    <mat-card-title id="Date">
+    <mat-card-title  class="Tittle_secondlevel" id="Date">
       <span>Fecha:</span>
     </mat-card-title>
 
-    <mat-card-title id="Range">
+    <mat-card-title class="Tittle_secondlevel" id="Range">
       <span>Rango de Valores:</span>
     </mat-card-title>
 
@@ -81,18 +81,14 @@
 
 
 
-    <div class="Input-select">
-      <mat-label>Correción y contrapartida</mat-label>
-      <mat-select>
-        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
-      </mat-select>
+    <div class="date-range-picker">
+      <mat-label>Inicial</mat-label>
+      <input class="Input-text-value">
     </div>
 
-    <div class="Input-select">
-      <mat-label>Correción y contrapartida</mat-label>
-      <mat-select>
-        <mat-option value="CONTILEG S.A.">CONTILEG S.A.</mat-option>
-      </mat-select>
+    <div class="date-range-picker">
+      <mat-label>Final</mat-label>
+      <input class="Input-text-value">
     </div>
   </mat-card-actions>
   <br>
@@ -209,10 +205,10 @@
 <mat-card>
   <mat-card-content class="Title-Level-Three">
     <mat-card-actions>
-      <mat-card-title id="MainName">
-        Combinacion
+      <mat-card-title class="Title-Level-Three" id="MainName">
+        Combinación
       </mat-card-title>
-      <mat-card-title id="SecondName">
+      <mat-card-title class="Title-Level-Three" id="SecondName">
         Limpiar combinaciones
       </mat-card-title>
     </mat-card-actions>
