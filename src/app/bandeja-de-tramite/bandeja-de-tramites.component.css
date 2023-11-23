@@ -27,15 +27,13 @@ label {
 
 .divide{
 
-  width: 10%;
+  width: 84.48PX;
   transform: rotate(90deg);
-  background-color: #000;
-  margin-right: 100px;
+  margin-right: 600px;
   border-style: dotted;
-  border: 0.1px solid #000;
- align-items:  center;
-
-
+  border: 0.1px solid #9AAFC0;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -88,7 +86,7 @@ button {
 
 .Input-Text {
   width: 515.461px;
-  height: 34.174px;
+  height: 35.174px;
   cursor: pointer;
   border-radius: 7.594px;
   border: 0.949px solid #9AAFC0;
@@ -434,7 +432,7 @@ p {
   display: flex;
   border-radius: 7.59px;
   overflow: hidden;
-  margin-left: 95.88px;
+  margin-left: 95px;
   border-width: 2px;
   border-color: #9AAFC0;
   stroke-width: 0.949px;

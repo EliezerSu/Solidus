@@ -12,7 +12,7 @@
               <mat-icon class="side_menu" (click)="isExpanded=!isExpanded">menu</mat-icon>
             </a>
           </mat-list-item>
-        
+
           <mat-list-item>
             <mat-icon class="icon_left">home</mat-icon>
             <span class="item_left" *ngIf="isExpanded">Home</span>
@@ -50,19 +50,19 @@
         </mat-nav-list>
 
       </div>
-      <div class="sidebar-section-2" >
-        <a class="config-btn" >
-          <mat-icon id="Add-icon">add</mat-icon>
-          <span *ngIf="isExpanded">Más</span>
-        </a> 
-        <br>
-        <a class="config-btn" >
-          <mat-icon id="Setting-icon">settings</mat-icon>
-          <span *ngIf="isExpanded">Configuración</span>
-        </a>
-      </div>
+
     </div>
-    
+    <div class="sidebar-section-2" >
+      <a class="config-btn" >
+        <mat-icon id="Add-icon">add</mat-icon>
+        <span *ngIf="isExpanded">Más</span>
+      </a>
+      <br>
+      <a class="config-btn" >
+        <mat-icon id="Setting-icon">settings</mat-icon>
+        <span *ngIf="isExpanded">Configuración</span>
+      </a>
+    </div>
   </mat-sidenav>
 
   <mat-sidenav-content class="Background-content">
