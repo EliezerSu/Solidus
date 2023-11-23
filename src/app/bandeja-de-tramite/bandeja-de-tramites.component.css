@@ -43,16 +43,6 @@
   padding-right: 7px;
 }
 
-.divide{
-  width: 10%;
-  transform: rotate(90deg);
-  background-color: #9AAFC0;
-  margin-right: 100px;
-  border-style: dotted;
-  border: 0.1px solid #9AAFC0;
- align-items:  center;
-}
-
 .Input-Text {
   width: 515.461px;
   height: 34.174px;
@@ -215,10 +205,8 @@
   padding-left: 100px;
 }
 
-.de {
+.Name-RadioButton-container {
   Height: 10px;
-  text-align: center;
-  margin-left: 0px;
   color: #435370;
   font-family: Poppins;
   font-size: 14px;
@@ -227,18 +215,26 @@
   line-height: normal;
 }
 
-.text {
-  margin-left: 50px;
-}
-
-.text1 {
-  margin-left: 15px;
+.Name-RadioButton-Font {
   color: #435370;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+
+#Radio-Title2{
+  margin-left: 140px;
+}
+
+#Radio-Title3{
+  margin-left: 30px;
+}
+
+#Radio-Title4{
+  margin-left: 120px;
 }
 
 .RadioButton-Text-First {
@@ -247,17 +243,17 @@
 }
 
 .RadioButton-Text-Second {
-  margin-left: 50px;
+  margin-left: 70px;
   margin-bottom: 50px;
 }
 
 .RadioButton-Text-Three{
-  margin-left: 50px;
+  margin-left: 90px;
   margin-bottom: 50px;
 }
 
 .RadioButton-Text-Four{
-  margin-left: 20px;
+  margin-left: 40px;
   margin-bottom: 40px;
 }
 
