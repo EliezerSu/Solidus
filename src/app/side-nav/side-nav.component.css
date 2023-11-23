@@ -5,12 +5,15 @@
 
 .item_left {
   color: #435370;
+  vertical-align: middle;
+  padding-top: 10px;
 }
 
 .icon_left {
   color: #435370;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-left: 5px;
+  margin-top: 30px;
 }
 
 
@@ -84,9 +87,9 @@ box-sizing: content-box;
   transform: scale(1.2);
 }
 
-.side_ span:hover {
-  background-color: #2B56A1;
-  color: white;
+.sidebar-section-1:hover {
+  background-color: #F8F8F8;
+  color: #4477CE;
 }
 
 .side_ .icon_left:hover {
@@ -95,6 +98,9 @@ box-sizing: content-box;
   border-radius: 7px;
   margin: auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
 }
 
 .config-btn{
