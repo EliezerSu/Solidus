@@ -1,4 +1,4 @@
-.main-title{
+.main-title {
   padding-top: 20px;
   padding-left: 25px;
   font-family: Poppins;
@@ -9,6 +9,7 @@
   line-height: normal;
   padding-bottom: 22.27px;
 }
+
 /* seccion "Organizacion" */
 .container-combinacion {
   display: flex;
@@ -18,8 +19,10 @@
 .row-combinacion {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px; /* Espacio entre las filas */
+  margin-bottom: 10px;
+  /* Espacio entre las filas */
 }
+
 /* seccion "Organizacion" */
 
 .Input-select {
@@ -57,8 +60,7 @@
   padding: 1em;
 }
 
-#Date{
-  margin-left: 25px;
+.Tittle_secondlevel {
   font-family: Poppins;
   font-size: 13.29px;
   font-style: normal;
@@ -66,16 +68,21 @@
   color: #5B5B5B;
   line-height: normal;
   justify-content: flex-start;
+
 }
 
-#Range{
-  color: #5B5B5B;
-  font-family: Poppins;
-  font-size: 13.29px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  justify-content: flex-end;
+#Date {
+  margin-left: 25px;
+}
+
+#Range {
+  margin-left: 410px;
+}
+
+.Input-text-value {
+  margin-top: 5px;
+  border-style:none;
+  padding-left: 5px;
 }
 
 .date-range-picker {
@@ -92,14 +99,14 @@
   background: #FFF;
   color: #5B5B5B;
   font-family: Roboto;
-  font-size: 13.29px;
+  font-size: 10.442px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
 }
 
-.Calendar{
+.Calendar {
   width: 184.161px;
   border-bottom: 10px;
   border-color: white;
@@ -139,6 +146,7 @@
   opacity: 0;
   cursor: pointer;
 }
+
 /* Create a custom radio button */
 
 .checkmark {
@@ -225,15 +233,15 @@
 }
 
 
-#Radio-Title2{
+#Radio-Title2 {
   margin-left: 140px;
 }
 
-#Radio-Title3{
+#Radio-Title3 {
   margin-left: 30px;
 }
 
-#Radio-Title4{
+#Radio-Title4 {
   margin-left: 120px;
 }
 
@@ -247,22 +255,32 @@
   margin-bottom: 50px;
 }
 
-.RadioButton-Text-Three{
+.RadioButton-Text-Three {
   margin-left: 90px;
   margin-bottom: 50px;
 }
 
-.RadioButton-Text-Four{
+.RadioButton-Text-Four {
   margin-left: 40px;
   margin-bottom: 40px;
 }
 
-#MainName{
-  margin-left: 15px;
+.Title-Level-Three {
+  color: #435370;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: flex-start;
+}
+
+#MainName {
+  margin-left: 0px;
 }
 
 #SecondName {
-  margin-left: 900px;
+  margin-left: 735px;
 }
 
 .TextName-- {
@@ -274,7 +292,7 @@
 p {
   margin-left: 20px;
   margin-right: 6px;
-  
+
 }
 
 .Input-Search-Container {
@@ -287,10 +305,10 @@ p {
   stroke-width: 0.949px;
   border-style: outset;
   height: 34.174px;
-  
+
 }
 
-#Input-Search{
+#Input-Search {
   width: 100px;
   border-style: none;
   background-color: #FFF;
@@ -324,7 +342,7 @@ p {
   width: 101.573px;
   height: 34.174px;
   margin-left: 89.24px;
- 
+
 }
 
 #Input-Search-Right {
