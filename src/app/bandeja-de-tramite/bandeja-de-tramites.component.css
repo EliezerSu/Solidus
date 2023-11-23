@@ -10,60 +10,7 @@
   padding-bottom: 22.27px;
 }
 
-.combo_titulo {
-  background-position: 5px;
-}
-
-.date-range-picker {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-}
-
-label {
-  margin-bottom: 5px;
-}
-
-
-.divide{
-
-  width: 84.48PX;
-  transform: rotate(90deg);
-  margin-right: 600px;
-  border-style: dotted;
-  border: 0.1px solid #9AAFC0;
-  align-items: center;
-  justify-content: center;
-
-}
-
-
-.date-range-picker {
-  text-align: left;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-input {
-  padding: 8px;
-  width: 200px;
-}
-
-button {
-  padding: 8px 16px;
-  margin-top: 1px;
-  background-color:rgba(154, 175, 192, 1);
-  color: white;
-  border: rgb(255, 255, 255);
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-
-.combobox{
+.Input-select {
   border-bottom: 10px;
   width: 184.161px;
   height: 45.566px;
@@ -96,7 +43,7 @@ button {
 
 .Input-Text {
   width: 515.461px;
-  height: 35.174px;
+  height: 34.174px;
   cursor: pointer;
   border-radius: 7.594px;
   border: 0.949px solid #9AAFC0;
@@ -318,7 +265,7 @@ button {
 p {
   margin-left: 20px;
   margin-right: 6px;
-
+  
 }
 
 .Input-Search-Container {
@@ -331,7 +278,7 @@ p {
   stroke-width: 0.949px;
   border-style: outset;
   height: 34.174px;
-
+  
 }
 
 #Input-Search{
@@ -360,7 +307,7 @@ p {
   display: flex;
   border-radius: 7.59px;
   overflow: hidden;
-  margin-left: 95px;
+  margin-left: 95.88px;
   border-width: 2px;
   border-color: #9AAFC0;
   stroke-width: 0.949px;
@@ -368,7 +315,7 @@ p {
   width: 101.573px;
   height: 34.174px;
   margin-left: 89.24px;
-
+ 
 }
 
 #Input-Search-Right {
