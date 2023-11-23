@@ -9,6 +9,18 @@
   line-height: normal;
   padding-bottom: 22.27px;
 }
+/* seccion "Organizacion" */
+.container-combinacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-combinacion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Espacio entre las filas */
+}
+/* seccion "Organizacion" */
 
 .Input-select {
   border-bottom: 10px;
@@ -258,8 +270,9 @@
 }
 
 .TextName-- {
+  text-align: center;
+  width: 75px;
   margin-left: 20px;
-  margin-right: 6px;
 }
 
 p {
